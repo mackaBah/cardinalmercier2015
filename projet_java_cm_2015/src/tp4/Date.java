@@ -42,7 +42,6 @@ public class Date {
 	 * Pour afficher la date 
 	 */
 	public String toString() {
-		return " [jour=" + jour + ", mois=" + mois + ", annee=" + annee
-				+ "]";
+		return jour+ "/" + mois + "/" + annee;
 	}
 }

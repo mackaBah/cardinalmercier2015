@@ -1,4 +1,4 @@
-package tp4;
+package tp4; //Exo1
 
 public class Personne {
 	private String nom;

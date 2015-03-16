@@ -27,6 +27,7 @@ public class Etudiant {
 		Etudiant e2 = new Etudiant("Vroman","Marie-Noel");
 		System.out.println(e2);
 		System.out.println("Nombre d'etudiant : " + nbEtu);
+		
 
 	}
 
