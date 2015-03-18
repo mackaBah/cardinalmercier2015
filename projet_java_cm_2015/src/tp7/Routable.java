@@ -7,10 +7,10 @@ import java.net.InetAddress;
 * @author mnv
 */
 public interface Routable {
-/**
-* @param reseau le réseau de destination que l'on veut atteindre
-* @return l'adresse ip du saut suivant pour atteindre ce réseau
-*/
-public InetAddress trouveNextHop(InetAddress reseau);
+	/**
+	 * @param reseau le réseau de destination que l'on veut atteindre
+	 * @return l'adresse ip du saut suivant pour atteindre ce réseau
+	 */
+	public InetAddress trouveNextHop(InetAddress reseau);
 }
 
