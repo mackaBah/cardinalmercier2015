@@ -77,12 +77,12 @@ public class Ip extends TrenteDeuxBits {
 
 		System.out.println(ip1 + " a comme masque par défaut /"+ip1.getDefaultSlash());
 
-		ip1 = new Ip("19.168.0.1");
+		Ip ip2 = new Ip("19.168.0.1");
 
-		System.out.println(ip1+" est de classe "+ip1.getClasse());
+		System.out.println(ip2 +" est de classe "+ip2.getClasse());
 
-		System.out.println(ip1 + " est privée ?"+ ip1.isPrive());
+		System.out.println(ip2 + " est privée ?"+ ip2.isPrive());
 
-		System.out.println(ip1 + " a comme masque par défaut /"+ip1.getDefaultSlash());
+		System.out.println(ip2 + " a comme masque par défaut /"+ip2.getDefaultSlash());
 	}
 }
