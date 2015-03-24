@@ -53,6 +53,9 @@ public class MaJframe extends JFrame {
 		
 		JLabel lblCancel = new JLabel("cancel");
 		getContentPane().add(lblCancel, BorderLayout.NORTH);
+		
+		JPanel panel = new JPanel();
+		getContentPane().add(panel, BorderLayout.CENTER);
 	}
 
 }
